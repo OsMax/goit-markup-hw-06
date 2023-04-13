@@ -316,7 +316,8 @@ body {
 }
 
 .form-input:hover,
-.form-input:focus {
+.form-input:focus,
+.form-input:active {
   border-color: #4d5ae5;
 }
 
