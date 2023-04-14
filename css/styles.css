@@ -232,6 +232,7 @@ body {
 .order-box {
   position: absolute;
   display: inline-block;
+  padding: 72px 24px 24px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
@@ -269,9 +270,6 @@ body {
   color: #ffffff;
 }
 
-.order-form {
-  padding: 72px 24px 24px;
-}
 .form-field {
   position: relative;
   margin-bottom: 8px;
@@ -283,8 +281,10 @@ body {
 .order-title {
   display: block;
   font-weight: 500;
-  font-size: 16px;
+  margin: 0;
   margin-bottom: 16px;
+
+  font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
@@ -364,6 +364,12 @@ body {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
 }
+.checkbox-old:hover + .checbox-icon,
+.checkbox-old:focus + .checbox-icon,
+.checkbox-old:active + .checbox-icon {
+  border: 2px solid #404bbf;
+}
+
 .checkbox-old:checked + .checbox-icon {
   background-image: url(../images/checkbox.svg);
   background-size: contain;
@@ -403,7 +409,7 @@ body {
   background-color: #404bbf;
 }
 
-.la .close-icon {
+.close-icon {
   fill: currentColor;
 }
 
